@@ -8,6 +8,7 @@ Create a execution context diagram of the following code on your notebook. Take 
 var firstName = 'Arya';
 var lastName = 'Stark';
 
+
 function getFullName(first, last) {
   return `${first} ${last}`;
 }
