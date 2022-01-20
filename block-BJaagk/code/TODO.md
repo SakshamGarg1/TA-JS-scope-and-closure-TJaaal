@@ -6,6 +6,7 @@ function percentage(marks, total) {
 }
 
 // Your code goes here
+
 ```
 
 2. Write Function Declaration or Function Expression next to the function.
