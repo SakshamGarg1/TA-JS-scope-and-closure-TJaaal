@@ -77,9 +77,9 @@ function add(a, b) {
   return a + b;
 }
 
-let five = add(2, 3); // undefined
-five = add; //  valid return a +b
-five = five(10, 11); // Answer 21
+let five = add(2, 3); // valid
+five = add; //  valid 
+five = five(10, 11); // valid
 five = function () {
   return 'Hello';
 }; // Answer'hello'
@@ -94,7 +94,7 @@ five = function () {
 ```js
 function hello() {
   console.log('Hello World!');
-}//undefined
+}//valid
 
 hello.user = 'Sam'; // valid or invalid
 valid
