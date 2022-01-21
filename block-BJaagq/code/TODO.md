@@ -4,6 +4,7 @@ Create a execution context diagram of the following code on your notebook. Take 
 
 1.
 
+
 ```js
 var species = 'human';
 
