@@ -4,7 +4,6 @@ Create a execution context diagram of the following code on your notebook. Take 
 
 1.
 
-
 ```js
 var species = 'human';
 
@@ -17,6 +16,7 @@ console.log(species); // 1
 change();
 console.log(species); // 2
 ```
+<img width="649" alt="Screenshot 2022-01-22 at 1 42 24 AM" src="https://user-images.githubusercontent.com/86765712/150593839-96ff902f-f70a-4805-81cf-77da6b6d48fc.png">
 
 <!-- Put your image below -->
 
