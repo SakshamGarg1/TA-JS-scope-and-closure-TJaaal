@@ -1,5 +1,6 @@
 1. Convert the function below into different forms of function expression.
 
+
 ```js
 function percentage(marks, total) {
   return (marks * 100) / total;
@@ -9,6 +10,7 @@ function percentage(marks, total) {
 let marks = function(marks, total) {
   return (marks * 100) / total;
 }
+
 
 ```
 
