@@ -17,11 +17,11 @@ The above code will throw an error `Reference Error username is not defined`.
 
 2. Go through the code below and write down the process of making decision about looking for the variable. Also write the output of the code below.
 
-```js
+```js 
 {
   const username = 'Arya';
 }
-console.log(useranme); // output
+console.log(useranme); // username not defined
 ```
 
 3. Go through the code below and write down the process of making decision about looking for the variable. Also write the output of the code below.
@@ -30,7 +30,7 @@ console.log(useranme); // output
 if (true) {
   let username = 'Arya';
 }
-console.log(useranme); // output
+console.log(useranme); // username not defined
 ```
 
 4. Go through the code below and write down the process of making decision about looking for the variable. Also write the output of the code below.
@@ -39,7 +39,7 @@ console.log(useranme); // output
 if (true) {
   var username = 'Arya';
 }
-console.log(useranme); // output
+console.log(useranme); // Arya
 ```
 
 5. Go through the code below and write down the process of making decision about looking for the variable. Also write the output of the code below.
@@ -49,7 +49,7 @@ let username = 'John';
 if (true) {
   var username = 'Arya';
 }
-console.log(useranme); // output
+console.log(useranme); // username is alreay declared
 ```
 
 6. Go through the code below and write down the process of making decision about looking for the variable. Also write the output of the code below.
@@ -59,7 +59,7 @@ let username = 'John';
 if (true) {
   let username = 'Arya';
 }
-console.log(useranme); // output
+console.log(useranme); // username is not defined
 ```
 
 7. Go through the code below and write down the process of making decision about looking for the variable. Also write the output of the code below.
@@ -70,16 +70,16 @@ function sayHello() {
   let username = 'Arya';
 }
 sayHello();
-console.log(useranme); // output
+console.log(useranme); //john
 ```
 
 8. Go through the code below and write down the process of making decision about looking for the variable. Also write the output of the code below.
 
 ```js
 for (var i = 0; i < 10; i++) {
-  console.log(i, 'First'); // output
+  console.log(i, 'First'); //  First First First First First First First First First
 }
-console.log(i, 'Second'); // output
+console.log(i, 'Second'); // First First First First First First First First First second
 ```
 
 9. Go through the code below and write down the process of making decision about looking for the variable. Also write the output of the code below.
