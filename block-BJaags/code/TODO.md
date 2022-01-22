@@ -14,7 +14,8 @@ function square(num) {
 }
 let hundred = square(10);
 console.log(hundred);
-```
+```<img width="632" alt="Screenshot 2022-01-22 at 9 37 01 PM" src="https://user-images.githubusercontent.com/86765712/150646363-07b10f31-4db3-47ad-b0fd-03f5face6f85.png">
+
 
 Create the execution context diagram of the following code line by line.
 
@@ -42,7 +43,7 @@ function multiplyArrayByN(arr, n) {
 
 let numbers = multiplyArrayByN(marks);
 ```
-
+![Uploading Screenshot 2022-01-22 at 9.37.01 PM.png…]()
 Create the execution context diagram of the following code line by line.
 
 ```js
@@ -54,7 +55,7 @@ function counter(){
   }
   return increment()
 }
-```
+```![Uploading Screenshot 2022-01-22 at 9.37.01 PM.png…]()
 
 Create the execution context diagram of the following code line by line.
 
