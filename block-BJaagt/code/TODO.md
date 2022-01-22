@@ -2,6 +2,8 @@ Go through the code below and write down the process of making decision about lo
 
 Example:
 
+
+
 ```js
 function hello() {
   var username = 'Arya';
