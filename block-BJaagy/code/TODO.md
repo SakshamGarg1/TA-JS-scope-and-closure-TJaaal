@@ -1,6 +1,22 @@
 1. Create a function by your choice that accepts a callback function.
+function punk(cb,opFn){
+return opFn(cb)
+}
+console.log(
+ punk(12,function{(n)
+ return n/10})
+ );
+
 
 2. Create a function by you choice that returns a function reference.
+function punk(cb,opFn){
+return opFn(cb)
+}
+console.log(
+ punk(12,function{(n)
+ return n/10})
+ );
+
 
 3. Create a higher order function called `map` that takes two inputs:
    - An array of numbers/string/boolean etc
@@ -9,9 +25,7 @@
 Have `map` return a new array filled with values that are the result of the 'callback' function on each element of the input array.
 
 ```js
-// Your code goes here
-
-// Test Your Code
+// 
 function multiplyByTwo(n) {
   return n * 2;
 }
