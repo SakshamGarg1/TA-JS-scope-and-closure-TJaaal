@@ -46,7 +46,12 @@ multiplyByTwo(2); //-> 4
 
 ```js
 // Your code goes here
-
+function forEach(arr,ab){
+let final=[]
+for(let elm of arrr){
+cb(elm)
+}
+}
 // Test Your Code
 let alphabet = '';
 let letters = ['a', 'b', 'c', 'd'];
