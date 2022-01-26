@@ -3,6 +3,7 @@
 - `forEach` accepts two parameter array and callback
 - It does not return anything
 - It should work exactly like array `forEach` method
+- 
 
 ```js
 function forEach() {}
