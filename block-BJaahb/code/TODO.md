@@ -10,8 +10,10 @@ function outer() {
   return inner;
 }
 let getSum = outer();
+
 let num = getSum();
 ```
+<img width="549" alt="Screenshot 2022-01-26 at 9 51 06 PM" src="https://user-images.githubusercontent.com/86765712/151203004-a6d1db69-6b95-4887-a788-0ac7281dc825.png">
 
 2.
 
@@ -48,6 +50,6 @@ let tomato = makeColorChanger('tomato');
 
 blue();
 tomato();
-
+//tomato
 // What will be the background color after the execution of last line
 ```
