@@ -2,6 +2,8 @@
 
 1. Write a function, `outer` that takes an input `string`. Inside the function `outer` define another function expression named `sayHello` which alerts the `input`. `sayHello` should be call immediately after it is defined.
 
+
+
 ```js
 // Your code goes here
 ```
