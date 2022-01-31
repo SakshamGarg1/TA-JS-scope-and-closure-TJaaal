@@ -8,6 +8,7 @@
 function outer(str){
 let sayHello=function(){
 alert(str);
+
 }
 sayHello();
 }
