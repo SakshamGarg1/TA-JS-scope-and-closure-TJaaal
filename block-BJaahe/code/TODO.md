@@ -77,10 +77,13 @@ When `forEach` function is called it returns another function. When the returned
 
 ```js
 function forEach(arr) {
-  let 
-}
+  let index= 0{
+  return function{
+  return arr [index++]}
+  }
+  }
 
-let next = [1, 2, 3, 4, 5];
+let next = forEach([1, 2, 3, 4, 5]);
 next(); // 1
 next(); // 2
 next(); // 3
@@ -94,7 +97,10 @@ The returned function accepts a string `prefix` and returns `prefix` and `title`
 
 ```js
 function addDesignation(title) {
-  // your code goes here
+return function{
+let str = `prefix`
+return ${`prefix`} ${`title`};
+}
 }
 
 let sales = addDesignation('Salesman');
@@ -112,8 +118,16 @@ manager('Head'); // Head Manager
 - `current` will return the current salary returns the updated salary
 
 ```js
-function changeSalary() {
-  // Your code goes here
+function changeSalary(currentSalary) {
+  return{
+  raise(){
+  return currentSalary+500;
+  },
+  lower(){
+  return currentSalary-500;
+  },
+  return currentSalary
+  }
 }
 
 let sam = changeSalary(2000);
@@ -130,8 +144,22 @@ arya.lower(); // 3500
 - `setLastName`: accepts a parameter last name using which updates the firstName and return the updated full name
 
 ```js
-// Your code goes here
+function nameFactory(firstName,lastName){
+return{
+getFullName(){
+return $`(firstName) $(lastName)`;
+},
+setFirstName(fn){
+firstName = fn,
+return $`(firstName) $(lastName)`;
+},
+setLastName(ln){
+lastName=ln,
+return $`(firstName) $(lastName)`;
+}
 
+}
+}
 let arya = nameFactory('Arya', 'Stark');
 arya.getFullName(); // "Arya Stark"
 arya.setFirstName('Jon'); // "Jon Stark"
@@ -143,8 +171,13 @@ arya.setLastName('Lannister'); // "Jon Lannister"
 The returned function accepts a string (children) and returns the children with the tag you passed.
 
 ```js
-function createTag() {
-  // your code goes here
+function createTag(tag){
+return function(child){
+let elm = document.createElement(tag);
+elm.innerText=child;
+return elm;
+}
+ 
 }
 
 let bold = createTag('b');
