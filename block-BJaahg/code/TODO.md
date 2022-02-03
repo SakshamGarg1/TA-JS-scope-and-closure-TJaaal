@@ -13,7 +13,7 @@ console.log(
   window.firstName,
   window.lastName,
   window.knownAs
-);
+);// undefined,undefined,noOne
 ```
 
 2. Guess the output:
@@ -28,6 +28,7 @@ function fullName(a, b) {
 }
 
 console.log(window.fullName(firstName, lastName));
+//Arya Stark
 ```
 
 3. Make a Execution Context Diagram for the following JS and write the output.
@@ -38,7 +39,9 @@ fucntion addOne(num){
 }
 var one = addOne(0);
 var two = addOne(1);
+
 console.log(one, two);
+![Uploading Screenshot 2022-02-03 at 2.09.29 PM.png…]()
 ```
 
 4. Make a Execution Context Diagram for the following JS and write the output.
@@ -96,6 +99,7 @@ function isAwesome() {
   console.log(awesome);
 }
 isAwesome();
+//undefined
 ```
 
 9. What will be the output of the following
@@ -109,6 +113,7 @@ function isAwesome() {
   console.log(awesome);
 }
 isAwesome();
+//true
 ```
 
 10. What will be the output of the following
@@ -122,6 +127,7 @@ function isAwesome() {
   console.log(awesome);
 }
 isAwesome();
+//undefined
 ```
 
 11. What will be the output of the following
@@ -136,6 +142,7 @@ function fullName(a, b) {
 }
 const name = fullName(firstName, lastName);
 console.log(name);
+Arya Stark
 ```
 
 12. Guess the output of the code below with a reason.
@@ -147,6 +154,8 @@ function sayHello() {
 sayHello();
 
 console.log(name);
+//Arya Stark
+ // undefined
 ```
 
 13. Guess the output of the code below with a reason.
@@ -156,6 +165,7 @@ if (true) {
   var name = 'Arya Stark';
 }
 console.log(name);
+//error
 ```
 
 14. Guess the output of the code below with a reason.
@@ -165,8 +175,9 @@ if (true) {
   let name = 'Arya Stark';
 }
 console.log(name);
+//Arya Stark
 ```
-
+// 
 15. Guess the output of the code below with a reason.
 
 ```js
@@ -174,6 +185,7 @@ for (var i = 0; i < 20; i++) {
   //
 }
 console.log(i);
+// 20
 ```
 
 16. Guess the output of the code below with a reason.
@@ -183,6 +195,7 @@ for (let i = 0; i < 20; i++) {
   //
 }
 console.log(i);
+//reference error
 ```
 
 17. Guess the output and the reason behind that.
@@ -195,6 +208,8 @@ function sample() {
   console.log(username);
 }
 sample();
+//John Snow
+// undefined
 ```
 
 18. Guess the output and the reason behind that.
@@ -207,6 +222,7 @@ function sample() {
   console.log(username);
 }
 sample();
+//reference error
 ```
 
 19. Guess the output and the reason behind that.
@@ -221,6 +237,8 @@ function sample() {
   console.log(username, 'second');
 }
 sample();
+//John Snow
+//Jhon Snow Second
 ```
 
 20. Guess the output and the reason behind that.
@@ -235,6 +253,8 @@ function sample() {
   console.log(username, 'second');
 }
 sample();
+// john Snow 
+// Arya stark second
 ```
 
 21. Guess the output and the reason behind that.
@@ -248,6 +268,9 @@ function sample(...args) {
 }
 
 sample('First', 'Second', 'Third');
+// Hello I am First 
+// Hello I am Second 
+// Hello I am Third
 ```
 
 22. Guess the output and the reason behind that.
@@ -261,6 +284,9 @@ function sample(...args) {
 }
 
 sample('First', 'Second', 'Third');
+// Hello I am First 
+// Hello I am Second 
+// Hello I am Third
 ```
 
 23. Guess the output and the reason behind that.
@@ -274,6 +300,7 @@ if (true) {
   let username = 'Hello World!';
   myFunc();
 }
+//not defined username
 ```
 
 24. Guess the output and the reason behind that.
@@ -290,6 +317,7 @@ function outer() {
 }
 
 outer();
+//I love this movie called MAD MAX: FURY ROAD
 ```
 
 25. Guess the output and the reason behind that.
@@ -307,6 +335,7 @@ function outer() {
 }
 
 outer();
+// I love this movie called BEFORE SUNSHINE
 ```
 
 26. Guess the output and the reason behind that.
@@ -327,9 +356,11 @@ function outer() {
   inner();
 }
 outer();
+//I love this movie called GONE GIRL
+
 ```
 
-30. Using reduce find the final value when the initial value passed is `100`. You have to pass the output of one function into the input of next function in the array `allFunctions` starts with `addOne` ends with `half`.
+27. Using reduce find the final value when the initial value passed is `100`. You have to pass the output of one function into the input of next function in the array `allFunctions` starts with `addOne` ends with `half`.
 
 ```js
 const addOne = (num) => {
