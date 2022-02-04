@@ -65,7 +65,8 @@ var nextMessage = sayHello('Test');
 <!-- Answer -->
 
 ```js
-// Your code goes here
+
+
 ```
 
 3.
