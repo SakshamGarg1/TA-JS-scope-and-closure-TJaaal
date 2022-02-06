@@ -5,6 +5,7 @@
 The returned function accepts a sentence. If the sentence contains the `fromWord` it should be replaced with `toWord`. Finally when the returned function is called it should return the new sentence.
 
 ```js
+
 function censor(fromWord, toWord) {
   //  Your code goes here
 }
