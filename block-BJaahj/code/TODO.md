@@ -5,6 +5,7 @@
 ```js
 function objOfMatches(array1, array2, callback) {
 return array1.reduce((acc,cv,index)=> {if(array2[index]===callback(cv)){
+
 acc[cv] = array2[index];
 } },{})
 }
