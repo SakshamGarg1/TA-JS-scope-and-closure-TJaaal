@@ -26,9 +26,15 @@ console.log(
 2. Construct a function `multiMap` that will accept two arrays: an array of values and an array of callbacks. `multiMap` will return an object whose keys match the elements in the array of values. The corresponding values that are assigned to the keys will be arrays consisting of outputs from the array of callbacks, where the input to each callback is the key.
 
 ```js
-function multiMap(arrVals, arrCallbacks) {}
+function multiMap(arrVals, arrCallbacks) {
+return arrVals.reduce((acc,cv)=>{
+let valueArray = arrCallbacks.map(fn =>fn(cv));
+acc[cv]=valueArray;
+return acc;
+},{})
+}
 
-// TEST
+
 console.log(
   multiMap(
     ['catfood', 'glue', 'beer'],
