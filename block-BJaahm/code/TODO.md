@@ -3,6 +3,7 @@
 ```js
 function intersection(arrays) {}
 
+
 // Test
 console.log(
   intersection(
