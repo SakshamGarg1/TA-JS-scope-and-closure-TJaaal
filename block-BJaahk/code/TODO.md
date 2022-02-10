@@ -26,7 +26,21 @@ The returned function either accepts two parameter or one parameter.
 
 ```js
 function multipleCensor() {
-  //  Your code goes here
+let words=[];
+ return function(prar){
+ if(para.length ===1){
+ let quote = params[0];
+ words.foreach(pair=>{
+ quote = quote.replace(pair[0],pair[1])
+ });
+ return quote; 
+ }elseif(para.length ===2){
+ words.push(params);
+ }else{
+ alert('The number of perameter is invalid!')
+ }
+ 
+ }
 }
 
 let censorQuote = multipleCensor();
@@ -50,8 +64,17 @@ The returned function accepts one parameter.
 - If the parameter is the same as the password it will return the object in which we stored the values.
 
 ```js
-function createCache() {
-  // Your code goes here
+function createCache(cb,pwd) {
+let obj ={};
+return function(param){
+if(param!== pwd{
+obj(param)=cb(param)
+return cb(param) 
+}else{
+return obj;
+}
+
+}
 }
 
 function add10(num) {
