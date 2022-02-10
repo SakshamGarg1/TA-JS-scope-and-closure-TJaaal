@@ -5,7 +5,7 @@ function once(cb) {
 let isCalled = false
   return function(){
   if(!isCalled){
-  cb
+  cb();
   isCalled = true;
   }
   }
