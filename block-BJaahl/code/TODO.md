@@ -72,7 +72,15 @@ log(); // return undefinde (can't be called twice)
 
 ```js
 function nTimes(cb, times, ...rest) {
-  // your code goes here
+let numberOfTimes = 0;
+  return function(){
+  if(numberOfTimes>= times){
+   alert("hi i m saksham") 
+   }else{
+   cb(...rest);
+   numberOfTimes = numberOfTimes+1
+   }
+  }
 }
 
 // TEST
